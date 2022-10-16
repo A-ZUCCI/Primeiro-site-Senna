@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/jpg" href="img/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conato</title>
+  </head>
+  <body>
+    <header class="header">
+      <li>
+        <a href="index.html"><img src="img/senna.png" id="icon" /></a>
+      </li>
+      <nav class="navbord">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="premios.html">Prêmios</a></li>
+          <li><a href="livros-bibliografia-obras.html">Obras</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <a class="botao" href="contato.html">Fale Conosco</a>
+        </ul>
+      </nav>
+    </header>
+    <h1>Fale Conosco</h1>
+    <form action="contato1.html" method="post">
+
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="name">Nome Completo:</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="campo">
+          <label for="tel">Telefone:</label>
+          <input type="text" name="tel" id="tel" required />
+        </div>
+        <div class="campo">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div class="campo">
+          <label for="doe">Comentário:</label>
+          <textarea row="60" id="doe" name="Comentário"></textarea>
+        </div>
+        
+        <div class="botao">
+          <input type="submit" value="ENVIAR" />
+          <input type="reset"  value="LIMPAR" />
+          </div>
+      </fieldset>
+    </form>
+
+    <div id="rodapé">
+      <p>Amanda Zuchi Machado2022- &copyTodos os direitos resevados.</p>
+    </div>
+  </body>
+</html>
